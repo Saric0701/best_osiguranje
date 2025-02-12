@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pošaljite nam upit</title>
+    <link rel="stylesheet" href="style1.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="Images/favicon.jpg">
+</head>
+<body>
+   
+
+      <div class="container">
+        <span class="big-circle"></span>
+        <div class="form">
+          <div class="contact-info">
+            <h3 class="title">Pošaljite nam upit</h3>
+            <p class="text">
+                Kontaktirajte nas putem upita, a mi ćemo vam odgovoriti u najkraćem mogućem roku.
+            </p>
+  
+            <div class="info">
+              <div class="information">
+                <div class="icon"><i class="fa-solid fa-map-location-dot" style="color: #ff0000; font-size: 30px;"></i></div>
+                <p>Ul. kardinala Alojzija Stepinca 31</p>
+              </div>
+              <div class="information">
+                <div class="icon"><i class="fa-regular fa-envelope" style="color: #ff0000; font-size: 30px;"></i></div>
+                <p>jelena@best-osiguranje.hr</p>
+              </div>
+              <div class="information">
+                <div class="icon"><i class="fa-solid fa-phone-volume" style="color: #ff0000; font-size: 30px;"></i></div>
+                <p>098-9728-074</p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="contact-form">
+            <span class="circle one"></span>
+            <span class="circle two"></span>
+  
+            <form action="https://api.web3forms.com/submit" method="POST" onsubmit="reset()">
+              <input type="hidden" name="access_key" value="aabd646e-6c48-4d9b-83e4-4e305f87739d">
+              <h3 class="title">Kontaktirajte nas</h3>
+          
+              <div class="input-container">
+                  <input type="text" name="Ime" class="input" required>
+                  <label for="">Ime</label>
+                  <span>Ime</span>
+              </div>
+          
+              <div class="input-container">
+                  <input type="email" name="email" class="input" required>
+                  <label for="">Email adresa</label>
+                  <span>Email adresa</span>
+              </div>
+          
+              <div class="input-container">
+                  <input type="tel" name="Broj mobitela" class="input" required>
+                  <label for="">Broj mobitela</label>
+                  <span>Broj mobitela</span>
+              </div>
+          
+              <div class="input-container textarea">
+                  <textarea name="Poruka" class="input" required></textarea>
+                  <label for="">Poruka</label>
+                  <span>Poruka</span>
+              </div>
+          
+              <input type="submit" value="Pošalji" class="btn">
+              <input type="button" value="Natrag" class="btn" id="natrag" onclick="window.location.href='index.html'">
+          </form>
+          
+          </div>
+        </div>
+      </div>
+
+  <script src="app1.js"></script>
+  
+</body>
+</html>
