@@ -623,10 +623,8 @@ body{
 
     .services__card {
       width: 300px;
-    }
-
-    .services__card:hover{
-      transform: scale(1.00);
+      margin-left: 30px;
+      margin-right: 30px;
     }
   }
   
