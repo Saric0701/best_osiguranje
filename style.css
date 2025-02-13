@@ -620,6 +620,10 @@ body{
     .services__wrapper {
       grid-template-columns: 1fr;
     }
+
+    .services__card {
+      width: 300px;
+    }
   }
   
   /* Footer CSS */
