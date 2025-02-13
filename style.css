@@ -412,7 +412,7 @@ body{
     }
   }
   
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 500px) {
     .main__img--card {
       width: 250px;
       height: 250px;
@@ -438,6 +438,11 @@ body{
     .main__btn {
       padding: 12px 36px;
       margin: 2.5rem 0;
+    }
+
+    iframe{
+      width: 250px;
+      height: 250px;
     }
   }
 
