@@ -624,6 +624,10 @@ body{
     .services__card {
       width: 300px;
     }
+
+    .services__card:hover{
+      transform: scale(1.00);
+    }
   }
   
   /* Footer CSS */
