@@ -358,6 +358,11 @@ body{
     color: #fff;
     background-color: #ff0000;
   }
+
+  #shield{
+    font-size: 200px;
+  }
+
   iframe{
     margin: 10px;
     height: 500px;
@@ -390,6 +395,10 @@ body{
     .main__img--card {
       height: 425px;
       width: 425px;
+    }
+
+    #shield{
+      font-size: 150px;
     }
   
     .main__content {
@@ -429,6 +438,10 @@ body{
     }
     .main__content h2 {
       font-size: 2rem;
+    }
+
+    #shield{
+      font-size: 100px;
     }
   
     .main__content p {
